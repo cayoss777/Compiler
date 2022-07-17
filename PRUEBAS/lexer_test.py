@@ -1,4 +1,7 @@
 from unittest import TestCase
+#Importaciones
+from typing import List
+from PLHL.Token import(Token,TokenType,)
 
 class LexerTest(TestCase):
 
