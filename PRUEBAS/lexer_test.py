@@ -1,8 +1,8 @@
 from unittest import TestCase
 #Importaciones
 from typing import List
-from PLHL.Token import(Token,TokenType,)
-
+from PLHL.token import(Token,TokenType,)
+from PLHL.lexer import Lexer
 class LexerTest(TestCase):
 
     def test_illegal(self) -> None:
