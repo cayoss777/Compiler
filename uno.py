@@ -1,1 +1,0 @@
-from uno import kotek
