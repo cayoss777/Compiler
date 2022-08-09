@@ -1,4 +1,3 @@
-
 from unittest import TestCase
 from typing import List
 from PLHL.token import (
@@ -16,6 +15,7 @@ class LexerTest(TestCase):
         tokens: List[Token] = []
         for i in range(len(source)):
             tokens.append(lexer.next_token())
+            
             expected_tokens: List[Token] = [
             Token(TokenType.ILLEGAL, '¡'),
             Token(TokenType.ILLEGAL, '¿'),
